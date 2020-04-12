@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  background-color: rgb(104, 143, 180);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+.App p {
+  font-size: larger;
+  font-weight: bolder;
+  font-style: oblique;
+  color: black;
+}
+body {
+  background-color: burlywood;
+}
+#nun {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(194, 98, 69);
+  cursor: pointer;
+  font-weight: bolder;
+  color: blanchedalmond;
+  margin-top: 4.5px;
+}
+button {
+  background-color: rgb(91, 197, 174);
+  border-radius: 10px;
+}
+
+input {
+  background-color: rgb(149, 171, 218);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: blanchedalmond;
+}
+input::placeholder {
+  color: antiquewhite;
+}
+#todo button,
+#btn button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(194, 98, 69);
+  cursor: pointer;
+  font-weight: bolder;
+  color: blanchedalmond;
+}
+button {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(194, 98, 69);
+  cursor: pointer;
+  font-weight: bolder;
+  color: blanchedalmond;
+  margin-top: 4.5px;
+}
+#rem {
+  font-size: small;
+  border: 5px;
+  background-color: rgb(14, 60, 82);
+  width: 150px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: rgba(188, 216, 218, 0.932);
+}
+#txt {
+  font-size: medium;
+  border: 5px;
+
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+#onee {
+  background-color: darkcyan;
+}
+#act {
+  font-size: medium;
+  border: 5px;
+  background-color: rgb(214, 146, 121);
+  width: 150px;
+  font-weight: bold;
+  font-family: fantasy;
+  margin-left: 135px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+#tr {
+  background-color: none;
+}
+#onee button {
+  background-color: none;
+  width: 50px;
+  border: darkgrey;
+}
