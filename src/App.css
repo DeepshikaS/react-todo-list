@@ -49,6 +49,7 @@ input::placeholder {
   border-radius: 4px;
   cursor: pointer;
   color: rgb(65, 64, 62);
+  justify-items: center;
 }
 button {
   height: 30px;
@@ -64,29 +65,29 @@ button {
 #rem {
   font-size: small;
   border: 5px;
-  background-color: rgb(14, 60, 82);
   width: 150px;
-  font-weight: bold;
   font-family: sans-serif;
   margin-bottom: 5px;
   border-radius: 5px;
-  color: rgba(188, 216, 218, 0.932);
+  color: rgba(60, 64, 65, 0.932);
 }
 #txt {
   font-size: medium;
   border: 5px;
-
   width: 150px;
   height: 30px;
   font-weight: bold;
   font-family: sans-serif;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-bottom: 5px;
   border-radius: 5px;
   position: relative;
 }
 #onee {
-  background-color: darkcyan;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  width: fit-content;
+  margin-left: 100px;
+  justify-items: center;
 }
 #act {
   font-size: medium;
@@ -106,7 +107,7 @@ button {
   border-radius: 5px;
 }
 #tr {
-  background-color: none;
+  margin: 10px;
 }
 #onee button {
   background-color: none;

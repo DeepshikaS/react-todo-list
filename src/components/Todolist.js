@@ -58,6 +58,11 @@ export default class Todolist extends Component {
     return (
       <div>
         <Todoform onSubmit={this.addTodo} />
+
+        <div id="act">
+          <p></p>Active todo:{" "}
+          {this.state.todos.filter((todo) => !todo.complete).length}
+        </div>
         {todos.map((todo) => (
           <Todo
             key={todo.id}
@@ -66,15 +71,12 @@ export default class Todolist extends Component {
             todo={todo}
           ></Todo>
         ))}
-        <div id="act">
-          <p></p>Active todo:{" "}
-          {this.state.todos.filter((todo) => !todo.complete).length}
-        </div>
+        <br />
         <div id="btn">
           <button onClick={() => this.Updateto("all")}>All</button>
-          &nbsp;
+          &nbsp; &nbsp; &nbsp;
           <button onClick={() => this.Updateto("complete")}>Completed</button>
-          &nbsp;
+          &nbsp; &nbsp; &nbsp;
           <button onClick={() => this.Updateto("active")}>Yet to do</button>
         </div>
         {this.state.todos.filter((todo) => todo.complete).length ? (
