@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  background-color: rgb(104, 143, 180);
   min-height: 500px;
-  width: 400px;
+  width: 600px;
   margin: 40px auto;
 }
 .App p {
@@ -12,7 +11,9 @@
   color: black;
 }
 body {
-  background-color: burlywood;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  margin: 0;
+  padding: 0;
 }
 #nun {
   height: 30px;
@@ -31,39 +32,33 @@ button {
 }
 
 input {
-  background-color: rgb(149, 171, 218);
-  border: 0;
-  width: 200px;
-  height: 50px;
-  padding: 0 20px;
-  margin: 20px;
+  width: 300px;
+  height: 30px;
+  margin-top: -5%;
   font-size: 18px;
-  border-radius: 10px;
-  color: blanchedalmond;
+  border-radius: 5px;
 }
 input::placeholder {
-  color: antiquewhite;
+  color: rgb(46, 45, 44);
 }
 #todo button,
 #btn button {
-  height: 50px;
-  width: 80px;
-  border-radius: 5px;
-  border: 0;
-  background-color: rgb(194, 98, 69);
+  height: 30px;
+  width: 100px;
+  padding: 3px;
+  border-radius: 4px;
   cursor: pointer;
-  font-weight: bolder;
-  color: blanchedalmond;
+  color: rgb(65, 64, 62);
 }
 button {
   height: 30px;
   width: 50px;
   border-radius: 5px;
   border: 0;
-  background-color: rgb(194, 98, 69);
+  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
   cursor: pointer;
   font-weight: bolder;
-  color: blanchedalmond;
+  color: rgb(58, 57, 55);
   margin-top: 4.5px;
 }
 #rem {
@@ -96,12 +91,18 @@ button {
 #act {
   font-size: medium;
   border: 5px;
-  background-color: rgb(214, 146, 121);
+  background-image: linear-gradient(
+    to right,
+    #e4afcb 0%,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #e2c58b 30%,
+    #c2ce9c 64%,
+    #7edbdc 100%
+  );
   width: 150px;
-  font-weight: bold;
-  font-family: fantasy;
   margin-left: 135px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   border-radius: 5px;
 }
 #tr {
