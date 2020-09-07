@@ -25,14 +25,14 @@ export default class Todoform extends Component {
 
   render() {
     return (
-      <form id="todo" onSubmit={this.handlesubmit}>
+      <form id="todo" className="content" onSubmit={this.handlesubmit}>
         <input
           name="text"
           value={this.state.text}
           onChange={this.handleChange}
           placeholder="todo.."
         />
-
+        &nbsp; &nbsp; &nbsp;
         <button onClick={this.handlesubmit}>Add</button>
       </form>
     );
