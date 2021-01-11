@@ -30,7 +30,7 @@ export default class Todoform extends Component {
           name="text"
           value={this.state.text}
           onChange={this.handleChange}
-          placeholder="todo.."
+          placeholder="enter task"
         />
         &nbsp; &nbsp; &nbsp;
         <button onClick={this.handlesubmit}>Add</button>

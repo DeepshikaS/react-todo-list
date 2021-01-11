@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <div className="App">
         <p></p>
-        <p>To-do List</p>
         <Todolist />
       </div>
     );
